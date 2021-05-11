@@ -56,6 +56,10 @@ body {
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
 }
 
+.column-4 {
+    width: 25%;
+}
+
 #footer {
     background-color: black;
     color: white;
