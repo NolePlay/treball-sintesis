@@ -23,6 +23,7 @@ body {
 }
 
 #section1 img {
+    width: 45%;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
 }
 
