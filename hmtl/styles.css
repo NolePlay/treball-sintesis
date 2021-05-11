@@ -67,6 +67,11 @@ body {
     height: 25vh;
 }
 
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .column2 {
     float: left;
     width: 50%;
