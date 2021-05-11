@@ -144,8 +144,6 @@ html {
     font-size: 40px;
     background-color: #FE231E;
     color: white;
-    text-align: center;
-    height: 20vh;
 }
 
 #header h1 {
@@ -156,6 +154,8 @@ html {
 #header img {
     width: 20%;
     float: left;
+    position: absolute;
+	left: 1%;
 }
 
 .column-1 {
