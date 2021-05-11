@@ -158,8 +158,8 @@ button:hover {
 }
 
 #section-4 {
-    background-color: black;
-    color: white;
+/*     background-color: black;
+    color: white; */
 }
 
 /* ScrollBar Style */
@@ -180,4 +180,8 @@ button:hover {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #636262;
+}
+
+.salto-linea {
+    clear: both;
 }
