@@ -153,6 +153,8 @@ html {
 #header {
     font-size: 40px;
     background-color: #FE231E;
+    background-image: url(../../img/manga-anime-mix-up-hd-wallpaper-preview.jpg);
+    background-blend-mode: overlay;
     color: white;
 }
 
