@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Comic & Manga</title>
     <script src="./js/codigo.js"></script>
+    <script src="./js/jquery.dataTables.min.js"></script>
+    <script src="./js/jquery.js"></script>
     <script src="https://kit.fontawesome.com/3cbe551640.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js%22%3E"></script>
 </head>
@@ -20,6 +22,84 @@
             <img src="./img/logo sintesis.png" alt="logosintesis">
             <h1>CÓMIC & MANGA</h1>
         </div>
+        <header>
+            <input type="search" id="input-search" placeholder="Buscar aquí...">
+
+            <div class="content-search" id="buscador">
+                <div class="content-table">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><a href="#section-1">Capitán América nº21</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Hulk nº30</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">IronMan nº5</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Daredevil nº19</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">4 Fantásticos nº296</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Thor nº11.3</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Vengadores nº27</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Daredevil nº10.2</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Green Lantern nº23</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-1">Flash nº54</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Beastars nº17</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Black Cover nº18</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Gleipnir nº5</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Goblin Slayer nº9</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Kimetsu no Yaiba nº21</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Jojo's: Stone Ocean nº7</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Nanatsu no Taizai nº30</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Vengadores nº27</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Daredevil nº19</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#section-2">Vengadores nº27</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </header>
         <!-- <i class="fas fa-shopping-cart"></i> -->
     </div>
     <div id="navbar">
@@ -203,6 +283,7 @@
                 x[slideIndex - 1].style.display = "block";
             }
         </script>
+        <script src="./js/search.js"></script>
 
     <div class="relleno-lateral row flex" id="footer">
         <div class="column-4">
