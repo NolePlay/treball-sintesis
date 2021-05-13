@@ -70,6 +70,14 @@ html {
     padding-bottom: 10%;
 }
 
+#section-1 h2 {
+    font-size: 20px;
+}
+
+#section-2 h2 {
+    font-size: 20px;
+}
+
 #section-2 h3 {
     color: #B10409;
 }
