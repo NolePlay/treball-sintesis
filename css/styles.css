@@ -87,6 +87,16 @@ html {
     padding-bottom: 10%;
 }
 
+#section-4 img {
+    padding-bottom: 2%;
+    
+}
+
+#section-4 {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
 .relleno-lateral {
     padding-left: 10%;
     padding-right: 10%;
@@ -100,7 +110,7 @@ html {
     padding-top: 3%;
 }
 
-button {
+#section-1 button {
     width: 75%;
     padding: 2%;
     background-color: #FE231E;
@@ -109,12 +119,31 @@ button {
     border-radius: 10px;
     border-color: #B10409;
     border-style: solid;
+    cursor: pointer;
 }
 
-button:hover {
+#section-2 button {
+    width: 75%;
+    padding: 2%;
+    background-color: #FE231E;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #B10409;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#section-1 button:hover {
     background-color: rgb(97, 0, 0);
     border-color: #4b0002;
 }
+
+#section-2 button:hover {
+    background-color: rgb(97, 0, 0);
+    border-color: #4b0002;
+}
+
 #navbar {
     overflow: hidden;
     background-color: rgb(32, 32, 32);
@@ -187,14 +216,22 @@ button:hover {
     clear: both;
 }
 
+.w3-content {
+    text-align: center;
+}
+
 .w3-content button {
-    width: 20%;
-    padding: 2%;
+    width: 10%;
+    padding: 1%;
+    background-color: #474747b6;
     color: white;
-    font-size: 15px;
-    border-radius: 10px;
-    border-style: groove;
-    opacity: 0.4;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.w3-content button:hover {
+    background-color: rgb(27, 27, 27);
+    border-color: #000000;
 }
 
 header {
