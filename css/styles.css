@@ -235,3 +235,72 @@ html {
     background-color: rgb(27, 27, 27);
     border-color: #000000;
 }
+
+@media screen and (max-width: 700px) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+    #header {
+        padding: 3vh
+    }
+
+    #section-1 {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #section-2 h1 {
+        font-size: 40px;
+    }
+
+    #section-3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #section-4 .gallery {
+        width: 50%;
+        padding: 0px;
+    }
+
+    #section-4 .column-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .flex:not(#section-1) {
+        display: block;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+
+    .gallery {
+        width: 50%;
+    }
+
+    .relleno-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .column-4 {
+        width: 50%;
+    }
+
+    .relleno-columnas {
+        padding-right: 0px;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    #footer {
+        padding: 5vh;
+        background-color: black;
+    }
+
+}
