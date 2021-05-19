@@ -152,6 +152,7 @@ html {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
   
 #navbar a {
@@ -162,7 +163,6 @@ html {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    z-index: 1;
 }
   
 #navbar a:hover {
