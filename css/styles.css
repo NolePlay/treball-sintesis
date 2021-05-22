@@ -381,22 +381,44 @@ section h2 {
     }
 
     #section-1 {
-        font-size: 12px;
-        text-align: left;
+        font-size: 18px;
+    }
+
+    #section-1 h2 {
+        font-size: 20px;
     }
 
     #section-2 h1 {
-        font-size: 40px;
+        font-size: 25px;
     }
 
-    #section-3 {
+    #section-2 h2 {
         font-size: 20px;
-        text-align: left;
+    }
+
+    #section-2 {
+        font-size: 18px;
+    }
+
+    #section-5 {
+        padding-top: 5%;
+    }
+
+    #section-3 h1{
+        font-size: 25px;
+    }
+
+    #section-5 h1{
+        font-size: 25px;
     }
 
     #section-4 .gallery {
         width: 50%;
         padding: 0px;
+    }
+
+    #section-4 {
+        padding-bottom: 5%;
     }
 
     #section-4 .column-1 {
@@ -413,7 +435,7 @@ section h2 {
     }
 
     .gallery {
-        width: 50%;
+        width: 100%;
     }
 
     .relleno-lateral {
@@ -434,7 +456,20 @@ section h2 {
     }
 
     #footer {
-        padding: 5vh;
+        padding-top: 2vh;
+        padding-bottom: 47vh;
         background-color: black;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .btn-wsp {
+        width: 63px;
+        height: 63px;
+        line-height: 66px;
+    }
+    
+    .card {
+        width: 100%;
     }
 }
