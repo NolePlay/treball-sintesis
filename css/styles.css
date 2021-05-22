@@ -219,22 +219,27 @@ html {
 }
 
 #section-4 .column-1 {
-    width: 50%;
+    width: 100%;
     align-content: center;
 }
 
-.column-1 button {
+#section-4 .column-1 button {
     width: 10%;
-    padding: 1%;
+    padding: 2%;
     background-color: #474747b6;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
 }
 
-.w3-content button:hover {
+#section-4 .column-1 button:hover {
     background-color: rgb(27, 27, 27);
     border-color: #000000;
+}
+
+#section-4 .column-1 img{
+    width: 100%;
+    align-content: center;
 }
 
 .estilo-c {
