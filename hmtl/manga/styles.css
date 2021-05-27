@@ -282,22 +282,31 @@ button:hover {
     .column-1 {
         width: 100%;
     }
+
     .column2 {
         width: 100%;
     }
+
     .column-4 {
-        width: 100%;
+        width: 50%;
     }
+
     #section1 {
         display: grid;
         height: 200vh;
         padding-left: 2%;
         padding-right: 2%;
     }
+
     #header h1 {
         font-size: 60%;
     }
+
     #footer {
-        font-size: 3.5vw;
+        padding-top: 2vh;
+        padding-bottom: 47vh;
+        background-color: black;
+        font-size: 10px;
+        width: 100%;
     }
 }
