@@ -38,7 +38,7 @@ body {
 }
 
 .background {
-    background-image: url(../img/manga-anime-mix-up-hd-wallpaper-preview.jpg);
+    background-image: url(../../img/manga-anime-mix-up-hd-wallpaper-preview.jpg);
     content: "";
     position: absolute;
     top: 0px;

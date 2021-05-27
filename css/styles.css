@@ -370,10 +370,16 @@ section h2 {
 @media screen and (max-width: 700px) {
     #header h1 {
         font-size: 50px;
+        visibility: hidden;
     }
 
     #header {
         padding: 3vh
+    }
+
+    #header img {
+        width: 90vw;
+        padding-left: 5vw;
     }
 
     .salto-linea {
