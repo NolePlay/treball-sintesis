@@ -303,7 +303,17 @@ button:hover {
     }
 
     #header h1 {
-        font-size: 60%;
+        font-size: 50px;
+        visibility: hidden;
+    }
+
+    #header {
+        padding: 3vh
+    }
+
+    #header img {
+        width: 90vw;
+        padding-left: 6vw;
     }
 
     #footer {
