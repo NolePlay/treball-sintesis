@@ -57,11 +57,6 @@ body {
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
 }
 
-#footer {
-    background-color: black;
-    height: 60vh;
-}
-
 .column2 {
     float: left;
     width: 50%;
@@ -280,6 +275,11 @@ button:hover {
     background-color: rgb(22, 22, 22);
 }
 
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 700px) {
     .flex {
         display: block;
@@ -315,7 +315,7 @@ button:hover {
 
     #header img {
         width: 90vw;
-        padding-left: 6vw;
+        padding-left: 8vw;
     }
 
     #footer {
@@ -324,5 +324,10 @@ button:hover {
         background-color: black;
         font-size: 10px;
         width: 100%;
+    }
+    
+    .relleno-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
