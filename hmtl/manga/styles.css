@@ -299,9 +299,9 @@ button:hover {
 
     #section1 {
         display: grid;
-        height: 200vh;
-        padding-left: 2%;
-        padding-right: 2%;
+        height: 190vh;
+        padding-left: 9%;
+        padding-right: 9%;
     }
 
     #header h1 {
@@ -330,4 +330,9 @@ button:hover {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    button {
+        width: 100%;
+    }
+    
 }

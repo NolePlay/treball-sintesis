@@ -176,20 +176,20 @@ html {
 }
 
 @media screen and (max-width: 700px) {
-    #header {
-        font-size: 20px;
-        text-shadow: 2px 5px #999;
-    }
     #header h1 {
-        width: 100%;
-        padding-top: 1.5%;
+        font-size: 50px;
+        visibility: hidden;
     }
+
+    #header {
+        padding: 3vh
+    }
+
     #header img {
-        width: 25%;
-        float: left;
-        position: absolute;
-        left: 1%;
+        width: 90vw;
+        padding-left: 6vw;
     }
+
     #section-1 {
         width: 100%;
     }
@@ -237,12 +237,18 @@ html {
         margin-bottom: 0;
     }
     #footer {
+        padding-top: 2vh;
+        padding-bottom: 47vh;
         background-color: black;
-        color: white;
-        height: 20vh;
+        font-size: 10px;
+        width: 100%;
     }
     #footer a {
         text-decoration: none;
         color: white;
+    }
+
+    .flex {
+        display: block;
     }
 }
